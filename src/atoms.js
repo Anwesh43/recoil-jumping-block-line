@@ -1,4 +1,4 @@
-import {atom} from 'default'
+import {atom} from 'recoil'
 
 export const scaleState = atom({
     key: 'scale', 
