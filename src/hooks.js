@@ -37,6 +37,10 @@ export const useDimension = () => {
             }
         }
     })
+    return {
+        w,
+        h
+    }
 }
 
 const maxScale = (scale, i, n) => Math.max(0, scale - i / n)
